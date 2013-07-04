@@ -82,7 +82,6 @@ double QwtOSCMain::signalInterval() const
 }
 
 bool QwtOSCMain::close() {
-    QMessageBox::warning (this, "fda", "fdsa", QMessageBox::Yes);
     QWidget::close ();
 }
 
